@@ -34,6 +34,7 @@ input{
 
 .complete{
   background-color: #50fa7b;
+  color: #44475a;
   margin-right: 2px;
 }
 .remove{
