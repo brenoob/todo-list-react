@@ -1,5 +1,4 @@
-body{
-  height: 100vh;
+body{  
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
   padding: 30px;
@@ -7,7 +6,7 @@ body{
   background-image: url(./assets/japan-city.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100%;
 }
 .app{
   max-width: 600px;
@@ -35,6 +34,7 @@ input{
 
 .complete{
   background-color: #50fa7b;
+  margin-right: 2px;
 }
 .remove{
   background-color: #ff5555;
@@ -53,6 +53,23 @@ button{
 }
 button:hover{
   opacity: 1;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #44475a;
+}
+
+.todo{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .todo-form{
